@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_margin="20dp"
+            android:layout_gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:layout_width="300dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="wrap_content"
+                android:id="@+id/unamelogin"
+                android:layout_margin="15dp"
+                android:textAlignment="center"
+                android:hint="Enter UserName"
+                android:drawableLeft="@drawable/ic_baseline_person_24"/>
+
+            <EditText
+                android:layout_width="300dp"
+                android:layout_margin="15dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="wrap_content"
+                android:id="@+id/passwordlogin"
+                android:inputType="textPassword"
+                android:textAlignment="center"
+                android:hint="Enter Password"
+                android:drawableLeft="@drawable/ic_baseline_remove_red_eye_24"/>
+
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="Login"
+                android:padding="10dp"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                android:onClick="loginNow"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="30dp"
+                />
+
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="Register"
+                android:padding="10dp"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                android:onClick="registerNow"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="30dp"
+                />
+
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="Admin Login"
+                android:padding="10dp"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                android:onClick="adminpage"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="30dp"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

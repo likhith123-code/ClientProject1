@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Signup">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_margin="20dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:layout_width="300dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="wrap_content"
+                android:id="@+id/name"
+                android:layout_margin="15dp"
+                android:textAlignment="center"
+                android:hint="Enter Name"
+                android:drawableLeft="@drawable/ic_baseline_person_24"/>
+
+            <EditText
+                android:layout_width="300dp"
+                android:layout_margin="15dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="wrap_content"
+                android:id="@+id/username"
+                android:textAlignment="center"
+                android:hint="Enter Username"
+                android:drawableLeft="@drawable/ic_baseline_person_24"/>
+
+            <EditText
+                android:layout_width="300dp"
+                android:layout_margin="15dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="wrap_content"
+                android:id="@+id/password"
+                android:textAlignment="center"
+                android:hint="Enter Password"
+                android:inputType="textPassword"
+                android:drawableLeft="@drawable/ic_baseline_remove_red_eye_24"/>
+
+            <EditText
+                android:layout_width="300dp"
+                android:layout_margin="15dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="wrap_content"
+                android:id="@+id/address"
+                android:textAlignment="center"
+                android:hint="Enter Address"
+                android:drawableLeft="@drawable/ic_baseline_person_24"/>
+
+            <EditText
+                android:layout_width="300dp"
+                android:layout_margin="15dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="wrap_content"
+                android:id="@+id/carmodel"
+                android:textAlignment="center"
+                android:hint="Enter CarModel"
+                android:drawableLeft="@drawable/ic_baseline_directions_car_24"/>
+
+
+            <EditText
+                android:layout_width="300dp"
+                android:layout_margin="15dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="wrap_content"
+                android:id="@+id/carcompany"
+                android:textAlignment="center"
+                android:hint="Enter CarCompany"
+                android:drawableLeft="@drawable/ic_baseline_directions_car_24"/>
+
+
+            <EditText
+                android:layout_width="300dp"
+                android:layout_margin="15dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="wrap_content"
+                android:id="@+id/regno"
+                android:textAlignment="center"
+                android:hint="Enter Reg No"
+                android:drawableLeft="@drawable/ic_baseline_person_24"/>
+
+            <EditText
+                android:layout_width="300dp"
+                android:layout_margin="15dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="wrap_content"
+                android:id="@+id/rtoarea"
+                android:textAlignment="center"
+                android:hint="Enter RTO Area"
+                android:drawableLeft="@drawable/ic_baseline_person_24"/>
+
+            <EditText
+                android:layout_width="300dp"
+                android:layout_margin="15dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="wrap_content"
+                android:id="@+id/phonenumber"
+                android:textAlignment="center"
+                android:hint="Enter Phone Number"
+                android:drawableLeft="@drawable/ic_baseline_local_phone_24"/>
+
+            <EditText
+                android:layout_width="300dp"
+                android:layout_margin="15dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="wrap_content"
+                android:id="@+id/emailid"
+                android:textAlignment="center"
+                android:hint="Enter Email Id"
+                android:drawableLeft="@drawable/ic_baseline_person_24"/>
+
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="RegisterNow"
+                android:padding="10dp"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                android:onClick="signup"
+                android:layout_gravity="center_horizontal"
+                android:hint="RegisterNow"
+                android:layout_marginBottom="30dp"
+                />
+
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="Already User Sign In"
+                android:padding="10dp"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal"
+                android:hint="SignIn"
+                android:onClick="signin"
+                android:layout_marginBottom="30dp"
+                />
+
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminLoggedIn">
+
+    <LinearLayout
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:id="@+id/detailsadminwant"
+        android:layout_margin="15dp"
+        android:textAlignment="center"
+        android:hint="Enter UserName"
+        android:drawableLeft="@drawable/ic_baseline_person_24"/>
+
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Get Details"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:onClick="displaydata"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="30dp"
+        />
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_margin="30dp"
+                android:textAlignment="center"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:layout_height="match_parent"
+                android:id="@+id/getdetailsnow"
+                android:layout_marginTop="30dp" />
+        </ScrollView>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

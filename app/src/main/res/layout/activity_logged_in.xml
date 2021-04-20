@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="100dp"
+    android:layout_gravity="center"
+    tools:context=".LoggedIn">
+
+    <Button
+        android:layout_width="300dp"
+        android:textAlignment="center"
+        android:layout_height="wrap_content"
+        android:text="View Profile"
+        android:padding="10dp"
+        android:gravity="center_vertical"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:onClick="profileShow"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="30dp"
+        tools:ignore="RtlCompat" />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Show Maps"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:onClick="maps"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="30dp"
+        />
+</LinearLayout>
