@@ -29,4 +29,9 @@ public class LoggedIn extends AppCompatActivity {
             Intent i5 = new Intent(LoggedIn.this,ProfilePage.class);
             startActivity(i5);
     }
+
+    public void directions(View view) {
+//        Intent i10 = new Intent(LoggedIn.this,GetDirections.class);
+//        startActivity(i10);
+    }
 }
