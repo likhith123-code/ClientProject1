@@ -31,7 +31,7 @@ public class LoggedIn extends AppCompatActivity {
     }
 
     public void directions(View view) {
-//        Intent i10 = new Intent(LoggedIn.this,GetDirections.class);
+//        Intent i10 = new Intent(LoggedIn.this,EnterPlaces.class);
 //        startActivity(i10);
     }
 }
